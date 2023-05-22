@@ -4,7 +4,7 @@ import Loader from './loader/loader';
 import Images from '../components/imageGallery/imageGallery';
 import Button from '../components/button/button';
 import Modal from '../components/modal/modal';
-import PropTypes from 'prop-types';
+
 
 
 const BASE_URL = 'https://pixabay.com/api/'
