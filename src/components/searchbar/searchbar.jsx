@@ -18,12 +18,8 @@ class Searchbar extends Component {
       return;
     }
     this.props.onSubmit(this.state);
-    this.reset();
   };
 
-  reset = () => {
-    this.setState({ imageName: '' });
-  };
 
   render() {
     return (
